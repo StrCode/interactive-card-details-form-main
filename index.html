@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+      <div class="col-left">
+        <img class="card-front" src="./images/bg-card-front.png" alt="">
+        <img class="card-back" src="./images/bg-card-back.png" alt="">
+
+      </div>
+       <div class="col-right">
+        <form class="form"  action="">
+          <div class="input-group">
+            <label for="name">Cardholder Name</label>
+            <input class="" type="text" placeholder="e.g Jane Appleseed" name="name" id="">
+          </div>
+          <div class="input-group">
+            <label for="name"> Cardholder Number</label>
+            <input type="text" placeholder="e.g. 1234 5678 9123 0000" name="" id="">
+          </div>
+          <div class="input-group">
+          <div class="card-details">
+              <label for="name"> EXP. Date (MM/YY)</label>
+              <label for="name"> CVC</label>
+          </div>
+          <div class="card-details">
+            <input class="one" type="text" placeholder="MM" name="" id="">
+            <input class="one" type="text" placeholder="YY" name="" id="">
+            <input class="two" type="text" placeholder="e.g. 123" name="" id="">
+        </div>
+      </div>
+            <button type="submit">Confirm</button>
+       </div>
+      </form>
+</body>
+</html>
